@@ -167,7 +167,7 @@ Node-Selectors:              <none>
 Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
                              node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
 Events:
-  Type    Reason     Age   From               Message```
+  Type    Reason     Age   From               Message
   ----    ------     ----  ----               -------
   Normal  Scheduled  99s   default-scheduler  Successfully assigned default/node-app-deployment-585d58f6cd-559nx to docker-desktop
   Normal  Pulled     96s   kubelet            Container image "node-app-kub:v2" already present on machine
